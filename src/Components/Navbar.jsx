@@ -7,7 +7,7 @@ const Navbar = () => {
   const [menu,setMenu]=useState("shop")
   return (
     <nav className="bg-slate-100 sticky h-10 top-0 flex  flex-row justify-around p-4 shadow-md">
-         <div className="flex items-center gap-3 w-[100vw]">
+         <div className="flex items-center gap-3 w-[95vw] mx-auto">
                   
                   <FcShop size={30}/>
                   <p className="text-[#171717] text-3xl font-semibold">CraftCom</p>

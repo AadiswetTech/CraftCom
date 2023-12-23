@@ -4,8 +4,8 @@ const Hero = () => {
   return (
    <div className="relative  bg-gradient-to-r from-slate-100  to-orange-300">
          <div className=" border grid grid-col-1 lg:grid-cols-2 w-full  gap-12 pl-[20px]">
-               <div className="pt-12 flex flex-col pl-9 gap-7 bg-slate-200  border rounded-r-xl ">
-               <div className="flex flex-col  text-6xl font-semibold  bg-white">
+               <div className="pt-12 flex flex-col pl-9 gap-7  border rounded-r-xl ">
+               <div className="flex flex-col  text-6xl font-semibold text-slate-800">
                            
                                     <p className="tex-[#171717]">new</p>
                                     <img src=""/>

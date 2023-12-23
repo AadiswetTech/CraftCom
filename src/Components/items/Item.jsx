@@ -3,7 +3,7 @@ import React from 'react'
 const Item = (props) => {
   return (
     <div className="w-[360px] hover:scale-110  duration-700 ">
-         <img className="w-[90vw] h-[40vh] lg:w-[30vw] rounded-lg" src={props.image}/>
+         <img className="w-[90vw] h-[40vh] lg:w-[32vw] mx-auto rounded-lg" src={props.image}/>
          <p className="mx-[6px] my-[0px]">{props.name}</p>
          <div className="flex gap-5 font-semibold">
               {props.new_price}   
